@@ -76,7 +76,7 @@ try {
       $mqtt->debug = false;
       
       // connect to broker
-      if(!$mqtt->connect(true, null, $config['iotf_api_key'], $config['iotf_api_secret'])){
+      if(!$mqtt->connect(true, null, $config['iotp_api_key'], $config['iotp_api_secret'])){
         error_log('Failed to Could not connect to IoT cloud');
         exit();
       } 
