@@ -1,0 +1,8 @@
+---
+applications:
+- name: my-iot-app-[initials]
+memory: 256M
+instances: 1
+host: my-iot-app-[initials]
+buildpack: https://github.com/cloudfoundry/php-buildpack.git
+stack: cflinuxfs2

@@ -1,0 +1,17 @@
+<?php
+$config = array(
+  'org_id' => 'IOTF-ORG-ID',
+  'port' => '1883',
+  'app_id' => 'phpmqtt',
+  'iotf_api_key' => 'IOTF-API-KEY',
+  'iotf_api_secret' => 'IOTF-API-TOKEN',
+  'maps_api_key' => 'GOOGLE-API-KEY',   // for web-app.php only
+  'device_id' => 'DEVICE-ID',
+  'qos' => 1  
+  'db_host' => 'DATABASE-HOST-NAME',
+  'db_user' => 'DATABASE-USER-NAME',
+  'db_pass' => 'DATABASE-USER-PASSWORD',
+  'db_name' => 'DATABASE-NAME',
+  'wait_time_trigger_min' => 5,         // for webhook-offer.php only
+  'proximity_trigger_km' => 1,          // for webhook-offer.php only
+);
